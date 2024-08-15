@@ -6,7 +6,7 @@ import { Icon } from "leaflet";
 
 export default function App() {
 
-  const socket = useMemo(() => io("http://localhost:3000"), []);
+  const socket = useMemo(() => io("https://real-time-tracking-iijd.onrender.com"), []);
   const [position, setPosition] = useState([28.4722, 77.080]);
   const [location, setLocation] = useState([]);
 
